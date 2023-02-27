@@ -1,10 +1,16 @@
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
-import ImgProd1 from '../assets/producto1.jpeg'
-import ImgProd2 from '../assets/producto2.jpeg'
-import ImgProd3 from '../assets/producto3.jpeg'
-import ImgProd4 from '../assets/producto4.jpeg'
-import ImgProd5 from '../assets/producto5.jpeg'
+import ImgProd1 from '../assets/producto1.png';
+import ImgProd2 from '../assets/producto2.png';
+import ImgProd4 from '../assets/producto4.png';
+import ImgProd5 from '../assets/producto5.png';
+import ImgProd6 from '../assets/producto6.png';
+import ImgProd7 from '../assets/producto7.png';
+import ImgProd8 from '../assets/producto8.png';
+import ImgProd9 from '../assets/producto9.png';
+import ImgProd10 from '../assets/producto10.png';
+import ImgProd11 from '../assets/producto11.png';
+
 import './Card.css'
 
 import React from 'react'
@@ -16,7 +22,7 @@ function Cards() {
         <div className='row'>
             <div className='col'>
       <Card className='rounded-5 border border-dark'>
-        <Card.Img className='rounded-5'variant="top" src={ImgProd1} />
+        <Card.Img className='rounded-5 'variant="top" src={ImgProd1} />
         <Card.Body>
           <Card.Title>Card title</Card.Title>
           <Card.Text>
@@ -46,7 +52,7 @@ function Cards() {
       </div>
       <div className='col'>
       <Card className='rounded-5 border border-dark'>
-        <Card.Img variant="top" className='rounded-5' src={ImgProd3} />
+        <Card.Img variant="top" className='rounded-5' src={ImgProd6} />
         <Card.Body>
           <Card.Title>Card title</Card.Title>
           <Card.Text>
@@ -63,7 +69,7 @@ function Cards() {
         <div className='row'>
             <div className='col'>
       <Card className='rounded-5 border border-dark'>
-        <Card.Img className='rounded-5'variant="top" src={ImgProd1} />
+        <Card.Img className='rounded-5'variant="top" src={ImgProd11} />
         <Card.Body>
           <Card.Title>Card title</Card.Title>
           <Card.Text>
@@ -78,7 +84,7 @@ function Cards() {
       </div>
       <div className='col'>
       <Card className='rounded-5 border border-dark'>
-        <Card.Img variant="top" className='rounded-5' src={ImgProd5} />
+        <Card.Img variant="top" className='rounded-5' src={ImgProd9} />
         <Card.Body>
           <Card.Title>Card title</Card.Title>
           <Card.Text>
@@ -93,7 +99,7 @@ function Cards() {
       </div>
       <div className='col'>
       <Card className='rounded-5 border border-dark'>
-        <Card.Img variant="top" className='rounded-5' src={ImgProd3} />
+        <Card.Img variant="top" className='rounded-5' src={ImgProd10} />
         <Card.Body>
           <Card.Title>Card title</Card.Title>
           <Card.Text>
