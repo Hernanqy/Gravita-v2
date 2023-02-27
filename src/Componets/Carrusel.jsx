@@ -1,7 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
 
 import Img2 from '../assets/slider1.png'
-import Img3 from '../assets/slider2.png'
+import Img3 from '../assets/bannerGravita1.png'
 import Img4 from '../assets/slider3.png'
 
 import './Carrusel.css';
@@ -16,8 +16,8 @@ function UncontrolledExample() {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3 >  <nav className='text-black'>Ropa para iluminar</nav></h3>
+          <p>Diseños unicos</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -28,8 +28,8 @@ function UncontrolledExample() {
         />
 
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3 className='text-black'>Ropa para iluminar</h3>
+          <p>Exclusivos diseños</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -40,9 +40,9 @@ function UncontrolledExample() {
         />
 
         <Carousel.Caption>
-          <h3>Third slide label</h3>
+          <h3 className='text-color'>Nuestro espacio</h3>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            Veni y probate todo
           </p>
         </Carousel.Caption>
       </Carousel.Item>

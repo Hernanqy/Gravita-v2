@@ -10,7 +10,7 @@ import ImgProd8 from '../assets/producto8.png';
 import ImgProd9 from '../assets/producto9.png';
 import ImgProd10 from '../assets/producto10.png';
 import ImgProd11 from '../assets/producto11.png';
-import ImgProd12 from '../assets/Gravita-logo-horizontal.jpg'
+import ImgProd12 from '../assets/Gravita-logo-cuadrado.jpg'
 
 import './Card.css'
 
@@ -90,7 +90,8 @@ function Cards() {
       </Card>
       </div></div>
 
-<div><img src={ImgProd12} alt="" width="100%" /></div>
+<div><img src={ImgProd12} alt="" width="50%" />
+<img src={ImgProd12} alt="" width="50%" /></div>
 
     </CardGroup>
 

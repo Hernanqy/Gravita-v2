@@ -4,9 +4,10 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import {HiOutlineShoppingCart} from 'react-icons/hi';
 import Img1 from '../assets/gravitalogo.jpg'
+import './Navbar.css'
 function BasicExample() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-center">
+    <nav className="navbar navbarBg navbar-expand-lg d-flex justify-content-center">
   <div className="container-fluid ">
   <a className="navbar-brand" href="#">
       <img src={Img1} alt="" width="80" height="80"/>

@@ -3,6 +3,7 @@ import BasicExample  from './Componets/Navbar'
 import './App.css'
 import UncontrolledExample from './Componets/Carrusel'
 import Cards from './Componets/Cards'
+import Footer from './Componets/Footer'
 
 function App() {
   
@@ -12,6 +13,7 @@ function App() {
       <BasicExample/>
       <UncontrolledExample/>
       <Cards/>
+      <Footer/>
     </div>
   )
 }
