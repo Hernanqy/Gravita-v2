@@ -2,3 +2,6 @@
     transform:scale(1.05) ;
     transition-duration: 1.75s;
 }
+button {
+    font-family: 'Gotham', sans-serif;
+}

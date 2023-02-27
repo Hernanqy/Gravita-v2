@@ -10,6 +10,7 @@ import ImgProd8 from '../assets/producto8.png';
 import ImgProd9 from '../assets/producto9.png';
 import ImgProd10 from '../assets/producto10.png';
 import ImgProd11 from '../assets/producto11.png';
+import ImgProd12 from '../assets/Gravita-logo-horizontal.jpg'
 
 import './Card.css'
 
@@ -21,65 +22,45 @@ function Cards() {
       <CardGroup className='m-5 gap-5'>
         <div className='row'>
             <div className='col'>
-      <Card className='rounded-5 border border-dark'>
+      <Card className='rounded-5 '>
         <Card.Img className='rounded-5 'variant="top" src={ImgProd1} />
-        <Card.Body>
-          <Card.Title>Card title</Card.Title>
-          <Card.Text>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This content is a little bit longer.
-          </Card.Text>
+        <Card.Body className='d-flex justify-content-center'>
+          <Card.Title ><button type="button" class="btn btn-warning">Añadir al carro</button></Card.Title>
+          
         </Card.Body>
-        <Card.Footer>
-          <small className="text-muted">Last updated 3 mins ago</small>
-        </Card.Footer>
+      
       </Card>
       </div>
-      <div className='col'>
-      <Card className='rounded-5 border border-dark'>
-        <Card.Img variant="top" className='rounded-5' src={ImgProd5} />
-        <Card.Body>
-          <Card.Title>Card title</Card.Title>
-          <Card.Text>
-            This card has supporting text below as a natural lead-in to
-            additional content.{' '}
-          </Card.Text>
+            <div className='col'>
+      <Card className='rounded-5 '>
+        <Card.Img className='rounded-5 'variant="top" src={ImgProd1} />
+        <Card.Body className='d-flex justify-content-center'>
+          <Card.Title ><button type="button" class="btn btn-warning">Añadir al carro</button></Card.Title>
+          
         </Card.Body>
-        <Card.Footer>
-          <small className="text-muted">Last updated 3 mins ago</small>
-        </Card.Footer>
+      
       </Card>
       </div>
-      <div className='col'>
-      <Card className='rounded-5 border border-dark'>
-        <Card.Img variant="top" className='rounded-5' src={ImgProd6} />
-        <Card.Body>
-          <Card.Title>Card title</Card.Title>
-          <Card.Text>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This card has even longer content than the
-            first to show that equal height action.
-          </Card.Text>
+            <div className='col'>
+      <Card className='rounded-5 '>
+        <Card.Img className='rounded-5 'variant="top" src={ImgProd1} />
+        <Card.Body className='d-flex justify-content-center'>
+          <Card.Title ><button type="button" class="btn btn-warning">Añadir al carro</button></Card.Title>
+          
         </Card.Body>
-        <Card.Footer>
-          <small className="text-muted">Last updated 3 mins ago</small>
-        </Card.Footer>
+      
       </Card>
-      </div></div>
+      </div>
+     </div>
         <div className='row'>
             <div className='col'>
       <Card className='rounded-5 border border-dark'>
         <Card.Img className='rounded-5'variant="top" src={ImgProd11} />
         <Card.Body>
           <Card.Title>Card title</Card.Title>
-          <Card.Text>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This content is a little bit longer.
-          </Card.Text>
+          
         </Card.Body>
-        <Card.Footer>
-          <small className="text-muted">Last updated 3 mins ago</small>
-        </Card.Footer>
+      
       </Card>
       </div>
       <div className='col'>
@@ -92,9 +73,7 @@ function Cards() {
             additional content.{' '}
           </Card.Text>
         </Card.Body>
-        <Card.Footer>
-          <small className="text-muted">Last updated 3 mins ago</small>
-        </Card.Footer>
+        
       </Card>
       </div>
       <div className='col'>
@@ -104,17 +83,18 @@ function Cards() {
           <Card.Title>Card title</Card.Title>
           <Card.Text>
             This is a wider card with supporting text below as a natural lead-in
-            to additional content. This card has even longer content than the
-            first to show that equal height action.
+      
           </Card.Text>
         </Card.Body>
-        <Card.Footer>
-          <small className="text-muted">Last updated 3 mins ago</small>
-        </Card.Footer>
+        
       </Card>
       </div></div>
 
+<div><img src={ImgProd12} alt="" width="100%" /></div>
+
     </CardGroup>
+
+    
 
     </div>
   )
