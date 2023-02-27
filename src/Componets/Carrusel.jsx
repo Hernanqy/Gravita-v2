@@ -16,7 +16,7 @@ function UncontrolledExample() {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3 >  <nav className='text-black'>Ropa para iluminar</nav></h3>
+          <h3 >  <nav className='text-black'>Ropa </nav></h3>
           <p>Diseños unicos</p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -28,7 +28,7 @@ function UncontrolledExample() {
         />
 
         <Carousel.Caption>
-          <h3 className='text-black'>Ropa para iluminar</h3>
+          <h3 className='text-black'>Ropa moderna</h3>
           <p>Exclusivos diseños</p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -42,7 +42,7 @@ function UncontrolledExample() {
         <Carousel.Caption>
           <h3 className='text-color'>Nuestro espacio</h3>
           <p>
-            Veni y probate todo
+            Texto informativo
           </p>
         </Carousel.Caption>
       </Carousel.Item>

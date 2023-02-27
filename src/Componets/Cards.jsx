@@ -24,8 +24,12 @@ function Cards() {
             <div className='col'>
       <Card className='rounded-5 '>
         <Card.Img className='rounded-5 'variant="top" src={ImgProd1} />
+        <Card.Text className='d-flex justify-content-center mt-1'>
+          <span>Producto numero uno :5.000 ars</span>  
+      
+          </Card.Text>
         <Card.Body className='d-flex justify-content-center'>
-          <Card.Title ><button type="button" class="btn btn-light">Añadir al carro</button></Card.Title>
+          <Card.Title ><button type="button" class="btn btn-light border ">Añadir al carro</button></Card.Title>
           
         </Card.Body>
       
@@ -33,9 +37,15 @@ function Cards() {
       </div>
             <div className='col'>
       <Card className='rounded-5 '>
-        <Card.Img className='rounded-5 'variant="top" src={ImgProd1} />
+        <Card.Img className='rounded-5 'variant="top" src={ImgProd4} />
+        <Card.Text className='d-flex justify-content-center mt-1'>
+          <span>Producto numero uno :5.000 ars</span>  
+      
+          </Card.Text>
         <Card.Body className='d-flex justify-content-center'>
-          <Card.Title ><button type="button" class="btn btn-light">Añadir al carro</button></Card.Title>
+        
+          
+          <Card.Title ><button type="button" class="btn btn-light border">Añadir al carro</button></Card.Title>
           
         </Card.Body>
       
@@ -43,9 +53,13 @@ function Cards() {
       </div>
             <div className='col'>
       <Card className='rounded-5 '>
-        <Card.Img className='rounded-5 'variant="top" src={ImgProd1} />
+        <Card.Img className='rounded-5 'variant="top" src={ImgProd5} />
+        <Card.Text className='d-flex justify-content-center mt-1'>
+          <span>Producto numero uno :5.000 ars</span>  
+      
+          </Card.Text>
         <Card.Body className='d-flex justify-content-center'>
-          <Card.Title ><button type="button" class="btn btn-light">Añadir al carro</button></Card.Title>
+          <Card.Title ><button type="button" class="btn btn-light border">Añadir al carro</button></Card.Title>
           
         </Card.Body>
       
@@ -54,8 +68,12 @@ function Cards() {
      </div>
         <div className='row'>
             <div className='col'>
-      <Card className='rounded-5 border border-dark'>
+      <Card className='rounded-5 '>
         <Card.Img className='rounded-5'variant="top" src={ImgProd11} />
+        <Card.Text className='d-flex justify-content-center mt-1'>
+          <span>Producto numero uno :5.000 ars</span>  
+      
+          </Card.Text>
         <Card.Body>
           <Card.Title>Card title</Card.Title>
           
@@ -64,27 +82,29 @@ function Cards() {
       </Card>
       </div>
       <div className='col'>
-      <Card className='rounded-5 border border-dark'>
+      <Card className='rounded-5 '>
         <Card.Img variant="top" className='rounded-5' src={ImgProd9} />
+        <Card.Text className='d-flex justify-content-center mt-1'>
+          <span>Producto numero uno :5.000 ars</span>  
+      
+          </Card.Text>
         <Card.Body>
           <Card.Title>Card title</Card.Title>
-          <Card.Text>
-            This card has supporting text below as a natural lead-in to
-            additional content.{' '}
-          </Card.Text>
+          
         </Card.Body>
         
       </Card>
       </div>
       <div className='col'>
-      <Card className='rounded-5 border border-dark'>
+      <Card className='rounded-5'>
         <Card.Img variant="top" className='rounded-5' src={ImgProd10} />
-        <Card.Body>
-          <Card.Title>Card title</Card.Title>
-          <Card.Text>
-            This is a wider card with supporting text below as a natural lead-in
+        <Card.Text className='d-flex justify-content-center mt-1'>
+          <span>Producto numero uno :5.000 ars</span>  
       
           </Card.Text>
+        <Card.Body>
+          <Card.Title>Card title</Card.Title>
+          
         </Card.Body>
         
       </Card>
