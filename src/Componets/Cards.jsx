@@ -10,7 +10,7 @@ import ImgProd8 from '../assets/producto8.png';
 import ImgProd9 from '../assets/producto9.png';
 import ImgProd10 from '../assets/producto10.png';
 import ImgProd11 from '../assets/producto11.png';
-import ImgProd12 from '../assets/Gravita-logo-cuadrado.jpg'
+import ImgProd12 from '../assets/Gravita-Logo-cuadrado.jpg'
 
 import './Card.css'
 
