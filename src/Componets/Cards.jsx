@@ -25,7 +25,7 @@ function Cards() {
       <Card className='rounded-5 '>
         <Card.Img className='rounded-5 'variant="top" src={ImgProd1} />
         <Card.Body className='d-flex justify-content-center'>
-          <Card.Title ><button type="button" class="btn btn-warning">Añadir al carro</button></Card.Title>
+          <Card.Title ><button type="button" class="btn btn-light">Añadir al carro</button></Card.Title>
           
         </Card.Body>
       
@@ -35,7 +35,7 @@ function Cards() {
       <Card className='rounded-5 '>
         <Card.Img className='rounded-5 'variant="top" src={ImgProd1} />
         <Card.Body className='d-flex justify-content-center'>
-          <Card.Title ><button type="button" class="btn btn-warning">Añadir al carro</button></Card.Title>
+          <Card.Title ><button type="button" class="btn btn-light">Añadir al carro</button></Card.Title>
           
         </Card.Body>
       
@@ -45,7 +45,7 @@ function Cards() {
       <Card className='rounded-5 '>
         <Card.Img className='rounded-5 'variant="top" src={ImgProd1} />
         <Card.Body className='d-flex justify-content-center'>
-          <Card.Title ><button type="button" class="btn btn-warning">Añadir al carro</button></Card.Title>
+          <Card.Title ><button type="button" class="btn btn-light">Añadir al carro</button></Card.Title>
           
         </Card.Body>
       
