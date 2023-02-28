@@ -5,11 +5,13 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import {HiOutlineShoppingCart} from 'react-icons/hi';
 import Img1 from '../assets/gravitalogo.jpg'
 import './Navbar.css'
-function BasicExample() {
+
+
+function BarraNav() {
   return (
     <nav className="navbar navbarBg navbar-expand-lg d-flex justify-content-center">
   <div className="container-fluid ">
-  <a className="navbar-brand" href="#">
+  <a className="navbar-brand" href="/">
       <img src={Img1} alt="" width="80" height="80"/>
     </a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,13 +39,13 @@ function BasicExample() {
         </li>
         
       </ul>
-      <form className="d-flex" role="search">
+      <a href="/cart" className="d-flex" role="search">
       <HiOutlineShoppingCart size={30}/>
-      </form>
+      </a>
     </div>
   </div>
 </nav>
   );
 }
 
-export default BasicExample;
+export default BarraNav;

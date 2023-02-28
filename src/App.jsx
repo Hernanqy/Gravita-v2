@@ -1,20 +1,22 @@
 
-import BasicExample  from './Componets/Navbar'
+import BarraNav  from './Componets/BarraNav';
 import './App.css'
-import UncontrolledExample from './Componets/Carrusel'
-import Cards from './Componets/Cards'
-import Footer from './Componets/Footer'
+import Home from './Componets/pages/Home';
+import Cart from './Componets/pages/Cart';
+
+import { BrowserRouter as Router, Routes , Route } from 'react-router-dom'
 
 function App() {
   
 
   return (
-    <div >
-      <BasicExample/>
-      <UncontrolledExample/>
-      <Cards/>
-      <Footer/>
-    </div>
+    <Router >
+      <BarraNav/>
+      <Routes>
+      <Route path ="/" element={<Home />} />
+      <Route path ="/cart" element={<Cart/> }/>
+      </Routes>
+    </Router>
   )
 }
 
